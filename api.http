@@ -5,3 +5,7 @@ Content-Type: application/json
     "name": "Darth Vader",
     "email": "darthvader@deathstar.com"
 }
+
+###
+
+GET http://localhost:3333//invites/d998970a-6449-4746-a43e-07af1ccab56d

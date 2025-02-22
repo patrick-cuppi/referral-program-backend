@@ -8,6 +8,7 @@ import {
 } from 'fastify-type-provider-zod'
 import { app } from './app'
 import { env } from './env'
+import { accessInviteLinkRoute } from './routes/access-invite-link'
 import { subscribeToEventRoute } from './routes/subscribe-to-event-route'
 
 app.setSerializerCompiler(serializerCompiler)
@@ -32,6 +33,7 @@ app.register(fastifySwaggerUi, {
 })
 
 app.register(subscribeToEventRoute)
+app.register(accessInviteLinkRoute)
 
 app.listen({ port: env.PORT }).then(() => {
   console.log('👽 HTTP Server Running!')
