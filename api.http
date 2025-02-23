@@ -9,3 +9,7 @@ Content-Type: application/json
 ###
 
 GET http://localhost:3333//invites/d998970a-6449-4746-a43e-07af1ccab56d
+
+###
+
+GET http://localhost:3333/subscribers/d998970a-6449-4746-a43e-07af1ccab56d/ranking/clicks
