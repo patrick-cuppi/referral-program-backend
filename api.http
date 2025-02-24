@@ -21,3 +21,7 @@ GET http://localhost:3333/subscribers/d998970a-6449-4746-a43e-07af1ccab56d/ranki
 ###
 
 GET http://localhost:3333/subscribers/d998970a-6449-4746-a43e-07af1ccab56d/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
