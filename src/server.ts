@@ -19,7 +19,7 @@ app.setSerializerCompiler(serializerCompiler)
 app.setValidatorCompiler(validatorCompiler)
 
 app.register(fastifyCors, {
-  origin: true, // Production example: 'http://localhost:3000'
+  origin: 'http://localhost:3000',
 })
 
 app.register(fastifySwagger, {
